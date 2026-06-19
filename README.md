@@ -9,3 +9,37 @@
 - Setosa is linearly separable from other species
 - Petal length is the strongest distinguishing feature
 - No missing values in the dataset
+
+---
+
+## Task 2: Predict Future Stock Prices (Short-Term)
+
+**Dataset:** Apple (AAPL) stock data from Yahoo Finance via yfinance library (2020–2024)
+
+**Models Applied:**
+- Linear Regression
+- Random Forest Regressor
+
+**Key Findings:**
+- Used Open, High, Low, and Volume to predict next day's Close price
+- Both models achieved R² score of ~0.99
+- Random Forest handles non-linear patterns better than Linear Regression
+- Short-term stock prediction is highly accurate due to price continuity
+
+---
+
+## Task 3: Heart Disease Prediction
+
+**Dataset:** Heart Disease UCI Dataset (heart.csv) from Kaggle — 303 patients, 13 features
+
+**Models Applied:**
+- Logistic Regression
+- Decision Tree Classifier
+
+**Key Findings:**
+- No missing values found in the dataset
+- Logistic Regression accuracy: ~85%, Decision Tree: ~80%
+- Logistic Regression had higher ROC-AUC score — better overall model
+- Top features predicting heart disease: chest pain type (cp), max heart rate (thalach), ST depression (oldpeak)
+
+---
