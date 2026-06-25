@@ -43,3 +43,19 @@
 - Top features predicting heart disease: chest pain type (cp), max heart rate (thalach), ST depression (oldpeak)
 
 ---
+
+## Task 4:House Price Prediction
+
+**Dataset:** House Price Prediction Dataset (Kaggle — Housing.csv)
+
+**Models Applied:**
+- Linear Regression
+- Gradient Boosting Regressor
+
+**Key Findings:**
+- Gradient Boosting outperformed Linear Regression with lower MAE and RMSE
+- Area and number of bathrooms were the strongest predictors of house price
+- Categorical features like air conditioning and preferred area also significantly impacted price
+- Feature scaling improved model performance for Linear Regression
+
+---
