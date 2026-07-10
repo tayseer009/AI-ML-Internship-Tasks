@@ -77,3 +77,28 @@ Fine-tuning, Text Classification
 - Gradio interface allows live headline classification in the browser
 
 **Deployment:** Gradio Web Interface
+
+---
+
+## Task 2: End-to-End ML Pipeline with Scikit-learn
+
+**Dataset:** Telco Customer Churn Dataset (IBM)
+
+**Models Applied:**
+- Logistic Regression Pipeline
+- Random Forest Pipeline
+- Random Forest + GridSearchCV (Tuned)
+
+**Methods Applied:** Scikit-learn Pipeline API, 
+Label Encoding, Feature Scaling, GridSearchCV, 
+Joblib Export
+
+**Key Findings:**
+- GridSearchCV improved Random Forest performance
+- Logistic Regression provided strong baseline accuracy
+- Complete pipeline exported and reloaded successfully with joblib
+- Scikit-learn Pipeline ensured clean, production-ready workflow
+
+**Pipeline saved as:** churn_pipeline.pkl
+
+---
