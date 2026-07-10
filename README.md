@@ -80,7 +80,7 @@ Fine-tuning, Text Classification
 
 ---
 
-## Task 2: End-to-End ML Pipeline with Scikit-learn
+## Advance Task 2: End-to-End ML Pipeline with Scikit-learn
 
 **Dataset:** Telco Customer Churn Dataset (IBM)
 
@@ -100,5 +100,26 @@ Joblib Export
 - Scikit-learn Pipeline ensured clean, production-ready workflow
 
 **Pipeline saved as:** churn_pipeline.pkl
+
+---
+
+## Advance Task 3: Multimodal ML – Housing Price Prediction Using Images + Tabular Data
+
+**Dataset:** SoCal House Prices and Images Dataset (Kaggle)
+
+**Models Applied:**
+- MobileNetV2 (CNN) for Image Feature Extraction
+- Deep Neural Network (DNN) for House Price Prediction
+
+**Methods Applied:** CNN Feature Extraction, Multimodal Learning (Image + Tabular Data), Feature Fusion, StandardScaler, Train-Test Split, Regression Modeling, TensorFlow/Keras
+
+**Key Findings:**
+- MobileNetV2 successfully extracted high-level image features from house images.
+- Combining image features with tabular features improved the house price prediction process.
+- The Deep Neural Network learned from both visual and structured data simultaneously.
+- Model performance was evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+- The trained model was successfully saved for future predictions.
+
+**Model saved as:** house_price_model.h5
 
 ---
