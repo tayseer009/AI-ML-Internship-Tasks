@@ -59,3 +59,21 @@
 - Feature scaling improved model performance for Linear Regression
 
 ---
+## Advance Task 1: News Topic Classifier Using BERT
+
+**Dataset:** AG News Dataset (fancyzhx/ag_news — Hugging Face)
+
+**Model Used:** bert-base-uncased (Fine-tuned)
+
+**Methods Applied:** Tokenization, Transfer Learning,
+Fine-tuning, Text Classification
+
+**Categories:** World, Sports, Business, Science/Technology
+
+**Key Findings:**
+- BERT successfully classified news headlines into 4 categories
+- Fine-tuning on 2000 samples gave strong accuracy and F1 score
+- Model correctly identified Science, Sports, Business and World news
+- Gradio interface allows live headline classification in the browser
+
+**Deployment:** Gradio Web Interface
