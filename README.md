@@ -123,3 +123,21 @@ Joblib Export
 **Model saved as:** house_price_model.h5
 
 ---
+
+## Advance Task 4: Auto Tagging Support Tickets Using LLM
+
+**Dataset:** Customer Support on Twitter Dataset
+
+**Models Applied:**
+- Facebook BART Large MNLI (Zero-Shot Classification)
+
+**Methods Applied:** Zero-Shot Learning, Prompt Engineering, LLM-based Text Classification, Multi-label Classification, Top-3 Tag Prediction, Hugging Face Transformers
+
+**Key Findings:**
+- Successfully classified customer support tickets into relevant categories using a pre-trained Large Language Model.
+- Zero-shot learning enabled ticket classification without additional model training.
+- Generated the top 3 most probable tags for each support ticket.
+- Demonstrated prompt engineering techniques for automated support ticket tagging.
+- Exported the tagged support tickets for further analysis and automation.
+
+**Output saved as:** tagged_support_tickets.csv
